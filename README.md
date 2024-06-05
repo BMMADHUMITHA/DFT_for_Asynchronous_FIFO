@@ -22,5 +22,10 @@ Screenshot of schematic after inserting test
 
 ![image](https://github.com/BMMADHUMITHA/DFT_for_Asynchronous_FIFO/assets/134037700/603abe0f-6a87-45aa-b416-b5bf84fae629)
 
+# References
+Simulation and Synthesis Techniques for Asynchronous FIFO Design Clifford E. Cummings, Sunburst Design, Inc.
+
+# Prepared By
+B M Madhumitha, Sharanya Shetty and Aryan Kumar
 
 
