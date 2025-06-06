@@ -1,0 +1,59 @@
+Reporting 2 scan chains (muxed_scan)
+ 
+Chain 1: AutoChain_1 
+  scan_in:      dft_sdi_1 
+  scan_out:     dft_sdo_1   
+  shift_enable: SE (active high) 
+  clock_domain: wclk (edge: rise)
+  length: 21
+    bit 1 	sync_r2w_wq1_rptr_reg[0]  <wclk (rise)>  
+    bit 2 	sync_r2w_wq1_rptr_reg[1]  <wclk (rise)>  
+    bit 3 	sync_r2w_wq1_rptr_reg[2]  <wclk (rise)>  
+    bit 4 	sync_r2w_wq1_rptr_reg[3]  <wclk (rise)>  
+    bit 5 	sync_r2w_wq1_rptr_reg[4]  <wclk (rise)>  
+    bit 6 	sync_r2w_wq2_rptr_reg[0]  <wclk (rise)>  
+    bit 7 	sync_r2w_wq2_rptr_reg[1]  <wclk (rise)>  
+    bit 8 	sync_r2w_wq2_rptr_reg[2]  <wclk (rise)>  
+    bit 9 	sync_r2w_wq2_rptr_reg[3]  <wclk (rise)>  
+    bit 10 	sync_r2w_wq2_rptr_reg[4]  <wclk (rise)>  
+    bit 11 	wptr_full_wbin_reg[0]  <wclk (rise)>  
+    bit 12 	wptr_full_wbin_reg[1]  <wclk (rise)>  
+    bit 13 	wptr_full_wbin_reg[2]  <wclk (rise)>  
+    bit 14 	wptr_full_wbin_reg[3]  <wclk (rise)>  
+    bit 15 	wptr_full_wbin_reg[4]  <wclk (rise)>  
+    bit 16 	wptr_full_wfull_reg  <wclk (rise)>  
+    bit 17 	wptr_full_wptr_reg[0]  <wclk (rise)>  
+    bit 18 	wptr_full_wptr_reg[1]  <wclk (rise)>  
+    bit 19 	wptr_full_wptr_reg[2]  <wclk (rise)>  
+    bit 20 	wptr_full_wptr_reg[3]  <wclk (rise)>  
+    bit 21 	wptr_full_wptr_reg[4]  <wclk (rise)>  
+------------------------
+Chain 2: AutoChain_2 
+  scan_in:      dft_sdi_2 
+  scan_out:     dft_sdo_2   
+  shift_enable: SE (active high) 
+  clock_domain: rclk (edge: rise)
+  length: 21
+    bit 1 	rptr_empty_rbin_reg[0]  <rclk (rise)>  
+    bit 2 	rptr_empty_rbin_reg[1]  <rclk (rise)>  
+    bit 3 	rptr_empty_rbin_reg[2]  <rclk (rise)>  
+    bit 4 	rptr_empty_rbin_reg[3]  <rclk (rise)>  
+    bit 5 	rptr_empty_rbin_reg[4]  <rclk (rise)>  
+    bit 6 	rptr_empty_rempty_reg  <rclk (rise)>  
+    bit 7 	rptr_empty_rptr_reg[0]  <rclk (rise)>  
+    bit 8 	rptr_empty_rptr_reg[1]  <rclk (rise)>  
+    bit 9 	rptr_empty_rptr_reg[2]  <rclk (rise)>  
+    bit 10 	rptr_empty_rptr_reg[3]  <rclk (rise)>  
+    bit 11 	rptr_empty_rptr_reg[4]  <rclk (rise)>  
+    bit 12 	sync_w2r_rq1_wptr_reg[0]  <rclk (rise)>  
+    bit 13 	sync_w2r_rq1_wptr_reg[1]  <rclk (rise)>  
+    bit 14 	sync_w2r_rq1_wptr_reg[2]  <rclk (rise)>  
+    bit 15 	sync_w2r_rq1_wptr_reg[3]  <rclk (rise)>  
+    bit 16 	sync_w2r_rq1_wptr_reg[4]  <rclk (rise)>  
+    bit 17 	sync_w2r_rq2_wptr_reg[0]  <rclk (rise)>  
+    bit 18 	sync_w2r_rq2_wptr_reg[1]  <rclk (rise)>  
+    bit 19 	sync_w2r_rq2_wptr_reg[2]  <rclk (rise)>  
+    bit 20 	sync_w2r_rq2_wptr_reg[3]  <rclk (rise)>  
+    bit 21 	sync_w2r_rq2_wptr_reg[4]  <rclk (rise)>  
+------------------------
+
